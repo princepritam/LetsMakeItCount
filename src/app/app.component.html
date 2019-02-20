@@ -1,0 +1,64 @@
+<nav>
+    <span>
+        <a mat-button routerLink="/home">
+            <mat-icon>home</mat-icon>HOME
+        </a>
+
+    </span>
+    <span>
+        <a mat-button routerLink="/events">EVENTS</a>
+    </span>
+
+    <span>
+        <a mat-button routerLink="/booking">BOOKING</a>
+    </span>
+
+    <span>
+        <a mat-button routerLink="/coaching">COACHING</a>
+    </span>
+
+    <span>
+        <a mat-button [matMenuTriggerFor]="services">SERVICES</a>
+
+        <mat-menu #services="matMenu">
+            <a mat-menu-item>SCHOOLS</a>
+            <a mat-menu-item>COLLEGES</a>
+            <a mat-menu-item>CORPORATE & GOVT. SECTOR</a>
+
+        </mat-menu>
+
+    </span>
+
+    <span>
+        <a mat-button routerLink="/careers">CAREERS</a>
+    </span>
+
+    <span>
+        <a mat-button [matMenuTriggerFor]="about">ABOUT US</a>
+        <mat-menu #about="matMenu">
+            <!-- <button mat-menu-item>OVERVIEW</button> -->
+            <a mat-menu-item routerLink='/overview'>OVERVIEW</a>
+            <a mat-menu-item routerLink="/team">THE TEAM</a>
+
+        </mat-menu>
+    </span>
+
+    <span>
+        <a mat-button routerLink="/contact">CONTACT US</a>
+    </span>
+
+    <span style="float = right;">
+        <a mat-button routerLink="/login">LOGIN</a>
+    </span>
+
+</nav>
+
+
+
+
+
+
+<router-outlet></router-outlet>
+    <!-- <footer>
+        <h5>©Here is the footer</h5>
+    </footer> -->
