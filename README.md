@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
+## Node Modules
+After cloning to local hard drive run the bellow commands using cmd inside the colned directory using cmd
+1) npm install
+2) npm install --save @angular/material @angular/cdk @angular/animations
+3) npm install --save angular/material2-builds angular/cdk-builds angular/animations-builds
+**refer this https://material.angular.io/guide/getting-started**
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
