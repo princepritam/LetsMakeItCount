@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
 ## Node Modules
-After cloning to local hard drive run the bellow commands using cmd inside the colned directory using cmd
+After cloning to local hard drive run the bellow commands using cmd inside the cloned directory.
 1) npm install
 2) npm install --save @angular/material @angular/cdk @angular/animations
 3) npm install --save angular/material2-builds angular/cdk-builds angular/animations-builds
